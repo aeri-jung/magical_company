@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko" data-mode="day">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="36세 대기업 팀장, 그리고 퇴근 후 마법소녀. 두 얼굴의 캐릭터 프로필.">
+  <meta name="theme-color" content="#182b53">
+  <title>AFTER SIX — 퇴근 후의 비밀</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#profile">본문 바로가기</a>
+  <header class="site-header">
+    <a class="brand" href="#profile" aria-label="처음으로"><span class="brand-mark" aria-hidden="true">a<span>6</span></span><span data-copy="brand">ROUNDE GAMES</span></a>
+    <nav aria-label="페이지 탐색"><a href="#profile">PROFILE</a><a href="#story">STORY</a><a href="#scene">SCENE</a></nav>
+    <button class="header-switch" type="button" data-toggle><span class="switch-symbol" aria-hidden="true">✦</span><span data-copy="headerToggle">퇴근 후의 비밀</span></button>
+  </header>
+  <main>
+    <section class="hero section-width" id="profile" aria-labelledby="character-name">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="short-line"></span><span data-copy="eyebrow">PEOPLE OF ROUNDE · 001</span></div>
+        <p class="hero-role" data-copy="role">전략기획팀 팀장</p>
+        <h1 id="character-name" data-copy="name">서도윤<span class="name-dot">.</span></h1>
+        <p class="english-name" data-copy="englishName">SEO DOYUN</p>
+        <h2 class="hero-headline" data-copy="headline">일에는 빈틈이 없다.<br>퇴근 후는, 예외다.</h2>
+        <p class="hero-description" data-copy="description">정확한 판단, 명확한 지시, 완벽한 마감.<br>우리 팀의 기준이 되는 사람을 소개합니다.</p>
+        <div class="hero-tags" id="hero-tags"></div>
+        <div class="hero-action"><button class="primary-button" type="button" data-toggle><span class="button-icon" aria-hidden="true">✦</span><span data-copy="toggleLabel">퇴근 후 프로필 보기</span></button><p data-copy="toggleNote">그에게는 아직 공개하지 않은 직함이 하나 있습니다.</p></div>
+      </div>
+      <div class="portrait-wrap">
+        <div class="portrait-topline"><span data-copy="portraitLabel">EMPLOYEE PORTRAIT</span><span class="portrait-index" data-copy="portraitIndex">01 / 02</span></div>
+        <figure class="portrait" id="portrait-figure">
+          <img id="character-image" src="assets/character-day.webp" alt="남색 정장을 입은 서도윤의 캐릭터 일러스트" width="768" height="1024" fetchpriority="high">
+          <span class="portrait-watermark" aria-hidden="true" data-copy="watermark">ROUNDE</span>
+          <figcaption class="portrait-caption"><span><span class="caption-small" data-copy="captionSmall">STRATEGY & PLANNING</span><strong data-copy="captionName">서도윤 팀장</strong></span><span class="caption-badge" data-copy="captionBadge">09:00 — 18:00</span></figcaption>
+        </figure>
+        <div class="portrait-footnote"><span data-copy="photoNote">한 사람, 두 개의 프로필.</span><span class="mode-indicators" aria-label="현재 프로필"><span class="mode-dot is-active" id="day-dot"></span><span class="mode-dot" id="night-dot"></span></span></div>
+      </div>
+    </section>
+    <div class="profile-strip section-width"><p class="strip-title" data-copy="stripTitle">PERSONNEL<br>FILE</p><dl id="facts"></dl></div>
+    <section class="story section-width" id="story" aria-labelledby="story-title">
+      <div class="section-heading"><span class="section-number">01</span><div><p class="eyebrow" data-copy="storyEyebrow">ABOUT THE CHARACTER</p><h2 id="story-title" data-copy="storyTitle">이런 사람입니다.</h2></div></div>
+      <div class="story-body"><div class="story-text" id="story-paragraphs"></div><aside class="quote-card"><span class="quote-symbol" aria-hidden="true">“</span><blockquote data-copy="quote">감으로 설명하지 말고,<br>근거로 설득해 주세요.</blockquote><p data-copy="quoteSource">서도윤 · 월요일 오전 회의에서</p><div class="quote-rule"></div><div class="traits" id="traits"></div></aside></div>
+    </section>
+    <section class="world-section" aria-labelledby="world-title"><div class="section-width world-inner"><div class="world-heading"><p class="eyebrow" data-copy="worldEyebrow">THE WORLD HE LIVES IN</p><h2 id="world-title" data-copy="worldTitle">자유로운 회사.<br>빈틈없는 팀장.</h2><p data-copy="worldIntro">판교의 게임 회사 라운드 게임즈.<br>즐거운 상상은 자유롭게, 결과는 확실하게.</p></div><div class="world-cards" id="world-cards"></div></div></section>
+    <section class="scene section-width" id="scene" aria-labelledby="scene-title"><div class="section-heading"><span class="section-number">02</span><div><p class="eyebrow" data-copy="sceneEyebrow">WHERE YOUR STORY BEGINS</p><h2 id="scene-title" data-copy="sceneTitle">당신의 첫 출근.</h2></div></div><div class="scene-card"><div class="scene-meta"><span data-copy="sceneTime">MONDAY · 08:57</span><span data-copy="scenePlace">라운드 게임즈 / 12층 전략기획팀</span></div><div class="scene-text" id="scene-paragraphs"></div><p class="scene-dialogue" data-copy="sceneDialogue">“새로 오신 분이죠. 앉으세요. 커피는 드셨습니까?”</p><div class="scene-bottom"><span data-copy="sceneRole">YOUR ROLE · 전략기획팀의 새 팀원</span><span class="scene-stamp" data-copy="sceneStamp">TO BE CONTINUED</span></div></div></section>
+    <section class="closing section-width"><div><p class="eyebrow" data-copy="closingEyebrow">AND WHEN THE CLOCK STRIKES SIX</p><h2 data-copy="closingTitle">퇴근하면,<br>다른 이야기가 시작됩니다.</h2></div><button class="primary-button" type="button" data-toggle><span class="button-icon" aria-hidden="true">✦</span><span data-copy="toggleLabel">퇴근 후 프로필 보기</span></button></section>
+  </main>
+  <footer class="section-width"><a class="footer-logo" href="#profile">AFTER SIX<span>✦</span></a><p data-copy="footer">본 페이지의 인물과 회사는 모두 가상의 창작 설정입니다.</p><span>CHARACTER ARCHIVE / 001</span></footer>
+  <div class="screen-reader-only" id="mode-announcement" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript-note">두 프로필을 전환하려면 브라우저에서 JavaScript를 활성화해 주세요.</div></noscript>
+</body>
+</html>
